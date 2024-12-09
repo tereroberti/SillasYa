@@ -1,0 +1,604 @@
+     * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    } 
+
+    .colorboton {
+        background-color: #98B0A9;
+        color: white;
+        border: #98B0A9;
+    }
+
+    .colortexto2 {
+        color: #3b1f16!important;
+    }
+
+    .colortexto {
+        color: white;
+        text-shadow: 2px 3px 10px #000000;
+    }
+
+    #historia {
+        padding-left: 10%;
+        padding-right: 10%;
+        background-image: url(../img/texturamadera.avif);
+    }
+
+    #carouselExampleCaptions {
+        background-image: url(../img/living-moderno.jpg);
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+
+    .navbar-nav {
+        align-items: center;
+        justify-content: center;
+    }
+
+.logo {
+    background-image: url(../img/Recurso-11.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90px;
+    height: 55px;
+    font-size: 0%;
+}
+
+
+.producto-galleria img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.producto-galleria img:hover {
+    transform: scale(1.05); 
+}
+
+
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.h1carrusel {
+ position: absolute;
+}
+.carousel-control-prev-icon {
+    background-image: url(../img/angulo-izquierdo.png);
+}
+.carousel-control-next-icon {
+    background-image: url(../img/angulo-derecho.png);
+}
+
+.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.carpinteria {
+    background-color:#29190c9d!important;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    
+    -webkit-text-size-adjust: 100%;
+
+
+}
+
+.btn-primary {
+    background-color : #F3932F;
+        --bs-btn-color: white; 
+        text-shadow: 2px 1px 7px #000000 ;
+        --bs-btn-border-color: #F3932F;
+}
+
+.btn-outline-secondary{
+    background-color: #F3932F ;
+    --bs-btn-color: #ffffff;
+    --bs-btn-border-color: none;
+}
+
+
+.colorB{
+    background-color: #087c9f;
+    border-color: #087c9f;
+}
+
+.text-bg-dark {
+    color: #fff!important;
+   background-color: #0000009d!important;       
+}
+
+
+.contenedormudanza {
+
+    background-color: #fff5ec94!important;
+    border: none;
+}
+
+
+
+h2{ 
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+h4 {
+    padding: 5%;
+    text-align: center;
+}
+
+
+div [class*="card shadow-sm"]{
+    min-width: 250px;
+}
+
+
+.p-5 {
+    padding: 1rem!important ;
+}
+
+.py-5 {
+    padding-top: 2rem!important;
+    padding-bottom: 2rem!important;
+}
+
+
+.modal-header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+div.card {
+    align-self: stretch;
+    }
+
+
+.row {
+    justify-content: center!important;
+}
+
+.col {
+     display: flex;
+     flex-direction: column;
+     justify-content: center; 
+     align-items:center; 
+     max-width: 290px;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1520px;
+}
+
+.equipo {
+    min-width: 300px!important;
+    
+}
+
+
+.mercadopago {background-image: url(../img/mercadopago.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+max-height: 70px;
+}
+
+.visa {background-image: url(../img/VISA.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 70px;
+}
+
+.naranja {background-image: url(../img/naranja.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 70px;
+}
+
+.mastercard {background-image: url(../img/mastercard.png);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+max-height: 61px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#galeria {
+    margin-bottom: 50px;
+    
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+iframe {
+    border: 0;
+    width: 90%;
+    height: 320px;
+}
+
+.formulario {
+    margin: auto;
+    border-radius: 10px;
+}
+.botonenviar {
+    margin: 10px;
+    margin-right: 50px;
+    float: right;
+
+}
+
+  #contacto {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+
+
+/* FOOTER */
+footer {
+    background-position: bottom;
+    color: rgb(0, 0, 0);
+}
+.datosalumno1 {
+    
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   padding-top: 20px;
+   margin: auto;
+   max-width: 160px;
+   
+}
+.datosalumno2 {
+    list-style: none;
+    
+}
+.datosalumno2 > li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.data-alumnos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 0px!important;
+}
+
+
+.email {
+    color: #FF3D70;
+}
+.card-img-top {
+    background-color: #CBE300;
+    width: 100%;
+
+}
+.fotoperfil {
+    width: 152px;
+}
+.redes {
+margin: auto;
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+   padding-left: 0px;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-description {
+    flex: 1;
+    max-width: 600px;
+}
+
+.product-image {
+    max-width: 400px;
+}
+
+
+
+@media (min-width:400px) and (max-width:576px){
+#HOME {
+    height: 500px;
+            
+}
+
+.row-cols-md-3>* {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.row-cols-sm-2>* {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+
+
+.data-alumnos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+}
+
+footer {
+    background-position: bottom;
+    color: rgb(0, 0, 0);
+}
+    
+
+@media (min-width:576px) and (max-width: 770px){
+#HOME {
+    max-height: 550px;
+}
+
+div .col {
+    width: 100%;
+    margin-left: 0%;
+}
+
+.ancho {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+    
+.row-cols-md-3>* {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.row-cols-sm-2>* {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+
+footer {
+    color: rgb(0, 0, 0);
+}
+    
+.data-alumnos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+ .product-gallery {
+             display: grid;
+             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+             gap: 10px;
+         }
+ 
+         .product-gallery img {
+             width: 100%;
+             height: auto;
+             object-fit: cover;
+             border-radius: 8px;
+         }
+ 
+         .main-content {
+             display: flex;
+             flex-wrap: wrap;
+             gap: 20px;
+         }
+ 
+         .product-description {
+             flex: 1;
+             max-width: 600px;
+         }
+ 
+         .product-image {
+             max-width: 400px;
+         }
+
+}
+
+ 
+
+@media (min-width: 770px) and (max-width: 992px){
+
+#carouselExampleCaptions {
+    background-image: url(../img/living-moderno.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-item {
+    padding-left: 30px;
+}
+
+#HOME {
+    height: 600px;
+}
+
+#Equipo {
+    max-width: 900px;
+}
+
+.row-cols-md-3>* {
+    flex: 0 0 auto;
+    width: 50%!important;
+}
+    
+.row-cols-sm-2>* {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.centrado{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    max-width: 50vmax;
+    margin: auto;
+}
+
+
+footer {
+    color: rgb(0, 0, 0);
+}
+    
+.data-alumnos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1400px){
+   
+#carouselExampleCaptions {
+    background-image: url(../img/living-moderno-grande.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+   
+.centrado{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    max-width: 50vmax;
+    margin: auto;
+}
+   
+.collaps {
+    justify-content: space-evenly;
+}
+
+.navbar-expand-lg .navbar-collapse {
+      justify-content: center;        
+}
+
+.nav-item{
+    padding-right: 35px;
+
+}
+
+#Equipo {
+    max-width: 950px;
+}
+
+
+
+
+footer {
+    color: rgb(0, 0, 0);
+}
+
+.data-alumnos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+}
+
+@media (min-width: 1400px) and (max-width: 2000px){
+
+#carouselExampleCaptions {
+    background-image: url(../img/living-moderno-grande.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+   
+.collaps {
+    justify-content: space-evenly;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center; 
+}
+.nav-item{
+    padding-right: 35px;
+}
+
+.data-alumnos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    max-width: 50vmax;
+    margin: auto;
+}
+
+footer {
+    color: rgb(0, 0, 0);
+}
+}
+
+    
+
